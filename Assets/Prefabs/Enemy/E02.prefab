@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 5004032748365246537}
   - component: {fileID: 5004032748365246542}
   - component: {fileID: 1700639883}
+  - component: {fileID: 6307941022888128069}
+  - component: {fileID: 1444960207}
   m_Layer: 9
   m_Name: E02
   m_TagString: Enemy
@@ -140,11 +142,59 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5004032748365246543}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a2e267585a431ed4c98d36756879a243, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveOnX: 0
+  moveOnY: 1
+  moveSpeed: 8
+  horizontalMovementTreshold: 8
+  verticalMovementTreshold: 8
+--- !u!114 &6307941022888128069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5004032748365246543}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75609df479ada9f45b1630b059bcb1f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  moveSpeed: 8
+  moveRandomly: 1
+--- !u!114 &1444960207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5004032748365246543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 556eda3212ddf814ba611a2523e707cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minX: -50
+  maxX: 50
+  minY: 0
+  maxY: 25
+  moveSpeed: 8
 --- !u!1 &5004032749032692570
 GameObject:
   m_ObjectHideFlags: 0
