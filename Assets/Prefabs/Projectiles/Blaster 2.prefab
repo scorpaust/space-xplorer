@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc3d5dea3c3a66c4092f74c31fd1c3b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 35
+  speed: -35
   minDamage: 10
   maxDamage: 15
   spawnSound: {fileID: 8300000, guid: 3e8cc2776d3a7504187923a001952b42, type: 3}

@@ -34,6 +34,8 @@ public class WeaponPool : MonoBehaviour
 		if (isEnemy)
 		{
             projectileHolder = GameObject.FindWithTag(TagManager.ENEMY_PROJECTILE_HOLDER_TAG);
+            ResetShootingTimer();
+
 		} else
 		{
             projectileHolder = GameObject.FindWithTag(TagManager.PLAYER_PROJECTILE_HOLDER_TAG);
@@ -46,6 +48,8 @@ public class WeaponPool : MonoBehaviour
             canShoot = true;
 
         HandlePlayerShooting();
+
+        HandleEnemyShooting();
     }
 
     private void GetObjectFromPoolOrSpawnANewOne()
@@ -100,4 +104,13 @@ public class WeaponPool : MonoBehaviour
         else
             shootTimer = Time.time + shootWaitTime;
     }
+
+    private void HandleEnemyShooting()
+	{
+        if (!isEnemy || !canShoot)
+            return;
+
+        ResetShootingTimer();
+        GetObjectFromPoolOrSpawnANewOne();
+	}
 }

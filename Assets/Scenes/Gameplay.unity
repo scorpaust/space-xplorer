@@ -450,6 +450,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1187668868 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8966477380910451738, guid: 2587467a48964fa40bcdd98c60589e11,
+    type: 3}
+  m_PrefabInstance: {fileID: 8966477380195617884}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1201537706 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8966477381245583335, guid: 2587467a48964fa40bcdd98c60589e11,
+    type: 3}
+  m_PrefabInstance: {fileID: 8966477380195617884}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1303538922
 GameObject:
   m_ObjectHideFlags: 0
@@ -540,6 +552,30 @@ Transform:
   m_Father: {fileID: 1768430443}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1444960206 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5004032748365246543, guid: 3e5d03830dade8b48b9121b793c44d14,
+    type: 3}
+  m_PrefabInstance: {fileID: 5004032748988843205}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1444960207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444960206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24b9a7197257b8441a94c7f6d72d6931, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectile: {fileID: 5000994292666386326, guid: b98e1cc5bd39a7646b26604c20f4cf24,
+    type: 3}
+  keyToPressToShoot: 0
+  projectileSpawnPoint: {fileID: 1867775274}
+  shootWaitTime: 1
+  isEnemy: 1
 --- !u!1 &1513349040
 GameObject:
   m_ObjectHideFlags: 0
@@ -634,7 +670,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24b9a7197257b8441a94c7f6d72d6931, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectile: {fileID: 7234673374515303014, guid: 539e334b159b3b64eb3fbe3c80a2f980,
+  projectile: {fileID: 7234673374515303014, guid: 63cd100c6906a5f4ba3da175c34096fc,
     type: 3}
   keyToPressToShoot: 106
   projectileSpawnPoint: {fileID: 2027690922}
@@ -652,7 +688,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24b9a7197257b8441a94c7f6d72d6931, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectile: {fileID: 7234673374515303014, guid: 539e334b159b3b64eb3fbe3c80a2f980,
+  projectile: {fileID: 7234673374515303014, guid: 63cd100c6906a5f4ba3da175c34096fc,
     type: 3}
   keyToPressToShoot: 106
   projectileSpawnPoint: {fileID: 452872580}
@@ -670,7 +706,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24b9a7197257b8441a94c7f6d72d6931, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectile: {fileID: 5000994292666386326, guid: b98e1cc5bd39a7646b26604c20f4cf24,
+  projectile: {fileID: 5000994292666386326, guid: b3ef696a8c2f9a1468e5762023659354,
     type: 3}
   keyToPressToShoot: 113
   projectileSpawnPoint: {fileID: 452872580}
@@ -688,7 +724,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24b9a7197257b8441a94c7f6d72d6931, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectile: {fileID: 5000994292666386326, guid: b98e1cc5bd39a7646b26604c20f4cf24,
+  projectile: {fileID: 5000994292666386326, guid: b3ef696a8c2f9a1468e5762023659354,
     type: 3}
   keyToPressToShoot: 113
   projectileSpawnPoint: {fileID: 2027690922}
@@ -706,7 +742,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24b9a7197257b8441a94c7f6d72d6931, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectile: {fileID: 7879454515319702160, guid: 7decb5502355c4041901d6fb0c60a220,
+  projectile: {fileID: 7879454515319702160, guid: 2c042588f8ba25f4e8dd2c35f1065e6d,
     type: 3}
   keyToPressToShoot: 108
   projectileSpawnPoint: {fileID: 452872580}
@@ -724,7 +760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24b9a7197257b8441a94c7f6d72d6931, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectile: {fileID: 7879454515319702160, guid: 7decb5502355c4041901d6fb0c60a220,
+  projectile: {fileID: 7879454515319702160, guid: 2c042588f8ba25f4e8dd2c35f1065e6d,
     type: 3}
   keyToPressToShoot: 108
   projectileSpawnPoint: {fileID: 2027690922}
@@ -837,6 +873,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1867775274 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5004032749032692581, guid: 3e5d03830dade8b48b9121b793c44d14,
+    type: 3}
+  m_PrefabInstance: {fileID: 5004032748988843205}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2027690922 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2027690922, guid: ab2381a1b786eef43ae28f69cee33fe5,
@@ -888,6 +930,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player Ship
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295004928463166036, guid: ab2381a1b786eef43ae28f69cee33fe5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4295004928463166039, guid: ab2381a1b786eef43ae28f69cee33fe5,
         type: 3}
@@ -1194,3 +1241,45 @@ PrefabInstance:
       objectReference: {fileID: 1355559430}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2587467a48964fa40bcdd98c60589e11, type: 3}
+--- !u!1 &8966477380195617885 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8966477379951273547, guid: 2587467a48964fa40bcdd98c60589e11,
+    type: 3}
+  m_PrefabInstance: {fileID: 8966477380195617884}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8966477380195617886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8966477380195617885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24b9a7197257b8441a94c7f6d72d6931, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectile: {fileID: 7234673374515303014, guid: 539e334b159b3b64eb3fbe3c80a2f980,
+    type: 3}
+  keyToPressToShoot: 0
+  projectileSpawnPoint: {fileID: 1187668868}
+  shootWaitTime: 1.2
+  isEnemy: 1
+--- !u!114 &8966477380195617887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8966477380195617885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24b9a7197257b8441a94c7f6d72d6931, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectile: {fileID: 7234673374515303014, guid: 539e334b159b3b64eb3fbe3c80a2f980,
+    type: 3}
+  keyToPressToShoot: 0
+  projectileSpawnPoint: {fileID: 1201537706}
+  shootWaitTime: 1.2
+  isEnemy: 1
