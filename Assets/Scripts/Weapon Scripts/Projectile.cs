@@ -37,4 +37,22 @@ public class Projectile : MonoBehaviour
         transform.Translate(0f, speed * Time.deltaTime, 0f);
 	}
 
+	private void OnTriggerEnter2D(Collider2D collision)
+	{
+		if (collision.CompareTag(TagManager.PLAYER_TAG))
+		{
+
+		}
+
+        if (collision.CompareTag(TagManager.ENEMY_TAG) || collision.CompareTag(TagManager.METEOR_TAG))
+		{
+
+		}
+
+		if (!collision.CompareTag(TagManager.UNTAGGED_TAG) && !collision.CompareTag(TagManager.COLLECTABLE_TAG))
+		{
+			gameObject.SetActive(false);
+		}
+	}
+
 }
