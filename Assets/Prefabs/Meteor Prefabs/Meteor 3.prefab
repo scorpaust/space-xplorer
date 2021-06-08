@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3248493000794974072}
   - component: {fileID: 3248493000794974075}
   - component: {fileID: 2006287805340701184}
+  - component: {fileID: 5532682024880125748}
   m_Layer: 9
   m_Name: Meteor 3
   m_TagString: Meteor
@@ -175,3 +176,20 @@ MonoBehaviour:
   maxSpeed: 10
   minRotationSpeed: 15
   maxRotationSpeed: 50
+--- !u!114 &5532682024880125748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3248493000794974074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f9342200b97d5f448725ef0cb6d3af1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthBar: {fileID: 0}
+  health: 80
+  hitEffect: {fileID: 1319861625924068, guid: 494f5858d0b1f415ea3401e84732aa08, type: 3}
+  destroyEffect: {fileID: 1681009956557646, guid: 64841f21255e5483a842ec828db83a70,
+    type: 3}

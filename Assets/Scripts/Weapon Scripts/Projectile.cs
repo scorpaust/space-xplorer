@@ -41,12 +41,12 @@ public class Projectile : MonoBehaviour
 	{
 		if (collision.CompareTag(TagManager.PLAYER_TAG))
 		{
-
+			collision.GetComponent<PlayerHealth>().TakeDamage(projectileDamage);
 		}
 
         if (collision.CompareTag(TagManager.ENEMY_TAG) || collision.CompareTag(TagManager.METEOR_TAG))
 		{
-
+			collision.GetComponent<EnemyHealth>().TakeDamage(projectileDamage, Random.Range(0, 0.5f));
 		}
 
 		if (!collision.CompareTag(TagManager.UNTAGGED_TAG) && !collision.CompareTag(TagManager.COLLECTABLE_TAG))
