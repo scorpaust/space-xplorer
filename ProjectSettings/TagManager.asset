@@ -60,3 +60,6 @@ TagManager:
   - name: Health
     uniqueID: 4245802091
     locked: 0
+  - name: BG
+    uniqueID: 1117453731
+    locked: 0
