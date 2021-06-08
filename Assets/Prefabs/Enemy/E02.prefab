@@ -181,6 +181,7 @@ GameObject:
   - component: {fileID: 1701834848060396315}
   - component: {fileID: 8966477380195617887}
   - component: {fileID: 8896158710055381116}
+  - component: {fileID: 7537926947095095063}
   m_Layer: 9
   m_Name: E02
   m_TagString: Enemy
@@ -416,6 +417,24 @@ MonoBehaviour:
   hitEffect: {fileID: 1517397130360990, guid: 7a03fdf14f0be483c97b353d57840bf8, type: 3}
   destroyEffect: {fileID: 1809984191729300, guid: 7ff64416fb649436baa5c0eec81a2882,
     type: 3}
+--- !u!114 &7537926947095095063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8966477379951273547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38ea350f3313294b81a7df67e59f743, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectables:
+  - {fileID: 6836595549780245610, guid: 8c70e0725787c1a4b91f5a004499ef87, type: 3}
+  - {fileID: 3421325521258957180, guid: 1008ae6017916be409023c3c86c9a007, type: 3}
+  - {fileID: 4780235854870738033, guid: 9c4b814f62faa42408cae26e662867b0, type: 3}
+  - {fileID: 3810119839057326793, guid: 45ee74e69be77e540924337c34f6822e, type: 3}
+  - {fileID: 3532885440309618788, guid: 4e5de177da6f7504e9a8d02b5d76805d, type: 3}
 --- !u!1 &8966477380910451737
 GameObject:
   m_ObjectHideFlags: 0

@@ -353,12 +353,6 @@ Transform:
   m_Father: {fileID: 1768430443}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &452872580 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 13228420, guid: ab2381a1b786eef43ae28f69cee33fe5,
-    type: 3}
-  m_PrefabInstance: {fileID: 4295004927646373117}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &487408910
 GameObject:
   m_ObjectHideFlags: 0
@@ -856,162 +850,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a47cc92946e1ae94895e0d908a727138, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &1681014108 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 599569563, guid: ab2381a1b786eef43ae28f69cee33fe5,
-    type: 3}
-  m_PrefabInstance: {fileID: 4295004927646373117}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1702767933 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1702767933, guid: ab2381a1b786eef43ae28f69cee33fe5,
-    type: 3}
-  m_PrefabInstance: {fileID: 4295004927646373117}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1702767934
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702767933}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24b9a7197257b8441a94c7f6d72d6931, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  projectile: {fileID: 7234673374515303014, guid: 63cd100c6906a5f4ba3da175c34096fc,
-    type: 3}
-  keyToPressToShoot: 106
-  projectileSpawnPoint: {fileID: 2027690922}
-  shootWaitTime: 0.2
-  isEnemy: 0
---- !u!114 &1702767937
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702767933}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24b9a7197257b8441a94c7f6d72d6931, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  projectile: {fileID: 7234673374515303014, guid: 63cd100c6906a5f4ba3da175c34096fc,
-    type: 3}
-  keyToPressToShoot: 106
-  projectileSpawnPoint: {fileID: 452872580}
-  shootWaitTime: 0.2
-  isEnemy: 0
---- !u!114 &1702767938
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702767933}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24b9a7197257b8441a94c7f6d72d6931, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  projectile: {fileID: 5000994292666386326, guid: b3ef696a8c2f9a1468e5762023659354,
-    type: 3}
-  keyToPressToShoot: 113
-  projectileSpawnPoint: {fileID: 452872580}
-  shootWaitTime: 0.2
-  isEnemy: 0
---- !u!114 &1702767939
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702767933}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24b9a7197257b8441a94c7f6d72d6931, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  projectile: {fileID: 5000994292666386326, guid: b3ef696a8c2f9a1468e5762023659354,
-    type: 3}
-  keyToPressToShoot: 113
-  projectileSpawnPoint: {fileID: 2027690922}
-  shootWaitTime: 0.2
-  isEnemy: 0
---- !u!114 &1702767940
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702767933}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24b9a7197257b8441a94c7f6d72d6931, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  projectile: {fileID: 7879454515319702160, guid: 2c042588f8ba25f4e8dd2c35f1065e6d,
-    type: 3}
-  keyToPressToShoot: 108
-  projectileSpawnPoint: {fileID: 452872580}
-  shootWaitTime: 0.2
-  isEnemy: 0
---- !u!114 &1702767941
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702767933}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24b9a7197257b8441a94c7f6d72d6931, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  projectile: {fileID: 7879454515319702160, guid: 2c042588f8ba25f4e8dd2c35f1065e6d,
-    type: 3}
-  keyToPressToShoot: 108
-  projectileSpawnPoint: {fileID: 2027690922}
-  shootWaitTime: 0.2
-  isEnemy: 0
---- !u!114 &1702767942
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702767933}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24b9a7197257b8441a94c7f6d72d6931, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  projectile: {fileID: 3749215631581669133, guid: 48bc4e08461ae2c4ca293649aa696be4,
-    type: 3}
-  keyToPressToShoot: 112
-  projectileSpawnPoint: {fileID: 1681014108}
-  shootWaitTime: 0.2
-  isEnemy: 0
---- !u!114 &1702767943
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702767933}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24b9a7197257b8441a94c7f6d72d6931, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  projectile: {fileID: 4232297812503573953, guid: 4b195c3d69e3d4a48a70c423dd4246c9,
-    type: 3}
-  keyToPressToShoot: 111
-  projectileSpawnPoint: {fileID: 1681014108}
-  shootWaitTime: 0.2
-  isEnemy: 0
 --- !u!1 &1752556249
 GameObject:
   m_ObjectHideFlags: 0
@@ -1149,29 +987,6 @@ Transform:
   m_Father: {fileID: 1766798650}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1807973822 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4295004928463166036, guid: ab2381a1b786eef43ae28f69cee33fe5,
-    type: 3}
-  m_PrefabInstance: {fileID: 4295004927646373117}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1807973823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1807973822}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9835765047c7cf498fdc0e4d712de86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerMaxHealth: 100
-  playerExplosionFx: {fileID: 1493211344075380, guid: d050d6f0895e64926bcad437c907f1a4,
-    type: 3}
-  playerDamageFx: {fileID: 1929564232946276, guid: ad5d54c9542814801ab5b2860b43e093,
-    type: 3}
 --- !u!1 &1866756678
 GameObject:
   m_ObjectHideFlags: 0
@@ -1202,12 +1017,6 @@ Transform:
   m_Father: {fileID: 1766798650}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &2027690922 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2027690922, guid: ab2381a1b786eef43ae28f69cee33fe5,
-    type: 3}
-  m_PrefabInstance: {fileID: 4295004927646373117}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2090627574
 GameObject:
   m_ObjectHideFlags: 0
@@ -1275,24 +1084,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1702767935, guid: ab2381a1b786eef43ae28f69cee33fe5, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4295004928463166036, guid: ab2381a1b786eef43ae28f69cee33fe5,
         type: 3}
       propertyPath: m_Name
       value: Player Ship
-      objectReference: {fileID: 0}
-    - target: {fileID: 4295004928463166036, guid: ab2381a1b786eef43ae28f69cee33fe5,
-        type: 3}
-      propertyPath: m_Layer
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 4295004928463166036, guid: ab2381a1b786eef43ae28f69cee33fe5,
-        type: 3}
-      propertyPath: m_TagString
-      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 4295004928463166039, guid: ab2381a1b786eef43ae28f69cee33fe5,
         type: 3}

@@ -15,6 +15,8 @@ public class PlayerHealth : MonoBehaviour
 
     private float playerHealth;
 
+    private Collectable collectable;
+
 	private void Awake()
 	{
         playerHealth = playerMaxHealth;
@@ -42,6 +44,23 @@ public class PlayerHealth : MonoBehaviour
 
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
+
+        if (collision.CompareTag(TagManager.COLLECTABLE_TAG))
+		{
+            collectable = collision.GetComponent<Collectable>();
+
+            if (collectable.type == CollectableType.Health)
+			{
+                playerHealth += collectable.healthValue;
+
+                if (playerHealth > playerMaxHealth)
+                    playerHealth = playerMaxHealth;
+
+                Destroy(collision.gameObject);
+            }
+                
+		}
+
 		if (collision.CompareTag("Meteor"))
 		{
             TakeDamage(Random.Range(20, 40));
