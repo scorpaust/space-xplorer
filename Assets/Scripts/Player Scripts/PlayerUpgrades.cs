@@ -45,6 +45,8 @@ public class PlayerUpgrades : MonoBehaviour
 				weaponUpgrade.ActivateWeapon(5);
 			}
 
+			SoundManager.instance.PlayPickupSound();
+
 			DestroyCollectable(collectable);
 		}
 	}

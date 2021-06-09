@@ -25,7 +25,7 @@ public class EnemySpawner : MonoBehaviour
 
 	private void Start()
 	{
-        StartCoroutine(SpawnWave(spawnWaitTime));
+        StartCoroutine(_SpawnWave(spawnWaitTime));
 	}
 
 	private void SpawnNewWaveOfEnemies()
@@ -41,9 +41,11 @@ public class EnemySpawner : MonoBehaviour
 
             spawnedEnemies.Add(newEnemy);
 		}
+
+        GameplayUIController.instance.SetInfo(1);
 	}
 
-    IEnumerator SpawnWave(float waitTime)
+    IEnumerator _SpawnWave(float waitTime)
 	{
         yield return new WaitForSeconds(waitTime);
         SpawnNewWaveOfEnemies();
@@ -54,6 +56,6 @@ public class EnemySpawner : MonoBehaviour
         spawnedEnemies.Remove(shipToRemove);
 
         if (spawnedEnemies.Count == 0)
-            StartCoroutine(SpawnWave(spawnWaitTime));
+            StartCoroutine(_SpawnWave(spawnWaitTime));
 	}
 }

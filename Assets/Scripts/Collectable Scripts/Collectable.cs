@@ -38,9 +38,4 @@ public class Collectable : MonoBehaviour
 
         transform.position = tempPos;
 	}
-
-	private void OnDisable()
-	{
-        SoundManager.instance.PlayPickupSound();
-	}
 }
