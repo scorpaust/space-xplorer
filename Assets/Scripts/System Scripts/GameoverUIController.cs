@@ -31,6 +31,10 @@ public class GameoverUIController : MonoBehaviour
 
 		gameoverCanvas.enabled = true;
 
+		Cursor.visible = true;
+
+		Cursor.lockState = CursorLockMode.Confined;
+
 		int shipsDestroyedFinal = GameplayUIController.instance.GetShipsDestroyedCount();
 
 		int meteorsDestroyedFinal = GameplayUIController.instance.GetMeteorsDestroyedCount();

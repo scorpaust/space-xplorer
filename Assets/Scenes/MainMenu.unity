@@ -316,6 +316,7 @@ GameObject:
   - component: {fileID: 209120087}
   - component: {fileID: 209120088}
   - component: {fileID: 209120086}
+  - component: {fileID: 209120089}
   m_Layer: 0
   m_Name: Main Menu Controller
   m_TagString: Untagged
@@ -450,6 +451,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &209120089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 209120085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 532a994ae29cc1743a453d31c76c644b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 2800000, guid: e614a157dc1088e49bb73ee6386ade58, type: 3}
 --- !u!1001 &232673463
 PrefabInstance:
   m_ObjectHideFlags: 0

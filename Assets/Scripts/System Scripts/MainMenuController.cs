@@ -19,6 +19,13 @@ public class MainMenuController : MonoBehaviour
         audio = GetComponent<AudioSource>();
 	}
 
+	private void Start()
+	{
+        Cursor.visible = true;
+
+        Cursor.lockState = CursorLockMode.Confined;
+    }
+
 	public void PlayGame()
 	{
         audio.Play();

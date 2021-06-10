@@ -18,6 +18,13 @@ public class GameplayUIController : MonoBehaviour
 			instance = this;
 	}
 
+	private void Start()
+	{
+		Cursor.visible = false;
+
+		Cursor.lockState = CursorLockMode.Locked;
+	}
+
 	public int GetShipsDestroyedCount()
 	{
 		return shipsDestroyedCount;
