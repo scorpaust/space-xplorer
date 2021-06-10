@@ -21,4 +21,10 @@
     public static string GAMEPLAY_LEVEL_NAME = "Gameplay";
 
     public static string MAIN_MENU_LEVEL_NAME = "MainMenu";
+
+    public static string WAVE_NUMBER_DATA = "Wave";
+
+    public static string SHIPS_DESTROYED_DATA = "ShipsDestroyed";
+
+    public static string METEORS_DESTROYED_DATA = "MeteorsDestroyed";
 }
